@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1000px;
+  height: 600px;
+  border: 1px solid;
+  margin: 0 auto;
+}
+.container #timer {
+  width: 350px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  margin: 100px auto;
+}
+.container #timer #input {
+  height: 30px;
+  width: 190px;
+}
+.container #timer .form__button {
+  height: 30px;
+  width: 65px;
+  cursor: pointer;
+}
+.container #timer .clear_button {
+  width: 57px;
+  height: 30px;
+  cursor: pointer;
+}
+.container .result, .container .result_4, .container .result_3, .container .result_2 {
+  margin: 0 auto;
+  position: absolute;
+  top: 150px;
+}
+.container .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.container .row .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.container .row img {
+  width: 150px;
+  height: 150px;
+}/*# sourceMappingURL=main.css.map */
