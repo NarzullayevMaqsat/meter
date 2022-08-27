@@ -3,7 +3,6 @@ const Text = document.querySelector(".result");
 const text2 = document.querySelector(".result_2");
 const text3 = document.querySelector(".result_3"); 
 const text4 = document.querySelector(".result_4");
-
 const peopleSpeed = 3.6;
 const veloSpeed = 20;
 const carSpeed = 80;
